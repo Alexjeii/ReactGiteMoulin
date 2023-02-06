@@ -1,0 +1,128 @@
+.container{
+    background-color: #BCC8CA;
+}
+
+.headPic{
+    position: relative;
+    width: 100%;
+    max-height: 418px;
+    object-fit:cover;
+    object-position: 50% 90% ;
+    margin-bottom: 20px;
+    filter: drop-shadow(0px 10px 5px white);
+    -webkit-filter: drop-shadow(0px 10px 5px white);
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    color: #598990;
+    width: 70%;
+    margin: 10px auto;
+}
+
+
+h2:nth-of-type(2) {
+    text-align: right;
+}
+
+h2:nth-of-type(3)
+{
+    text-align: center;
+}
+
+.aPropos, .around 
+{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    height: 80vh;
+    margin: auto;
+}
+
+.paragraphes {
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+    line-height: 2;
+    flex-direction: column;
+    width: 50%;
+    margin: auto 20px;
+}
+
+.aPropos img, .around img 
+{
+    width: 50%;
+    object-fit: cover;
+}
+
+.around{
+    flex-direction: row-reverse;
+    margin-bottom: 10vh;
+}
+
+hr
+{
+   border: 1px solid white;
+   width: 80%;
+   margin: 10px auto 20px;
+   filter: drop-shadow(0px 3px 3px white);
+   -webkit-filter: drop-shadow(0px 3px 3px white);
+}
+
+.discover
+{
+    display: flex;
+    gap: 5px;
+    margin: 0 10px;
+    height: 60vh;
+    
+}
+
+.discover img
+{
+    width: 25%;
+    object-fit:fill;
+    transition: 1s ;
+    -webkit-transition: 1s ;
+    -moz-transition: 1s ;
+    -ms-transition: 1s ;
+    -o-transition: 1s ;
+}
+
+.discover:hover
+{
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    gap: 20px;
+}
+
+.discover:hover img
+{
+    filter: blur(50px);
+    -webkit-filter: blur(40px);
+}
+
+.discover img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    z-index: 2;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+
+
+
+

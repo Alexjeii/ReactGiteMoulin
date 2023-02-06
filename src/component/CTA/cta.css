@@ -1,0 +1,41 @@
+.CTA
+{
+    margin: 15vh auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+    
+    
+    
+}
+
+.CTA a 
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5em;
+    color:white;
+    background-color: #CE5F77;
+    padding: 20px 30px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 6px 6px 3px #3D3D3D;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+.CTA  a:hover
+{
+    color: #CE5F77;
+    background-color: white;
+    border: 2px solid #CE5F77;
+    font-size: 3em;
+    filter: drop-shadow(0px 0px 20px #CE5F77);
+    -webkit-filter: drop-shadow(0px 0px 20px #CE5F77);
+}
+
+

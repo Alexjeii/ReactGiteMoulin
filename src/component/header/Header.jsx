@@ -7,30 +7,32 @@ function Header() {
     <div>
     
     <header>
-        <Link to="/">
-            <div class="siteName">
-                <img src={process.env.PUBLIC_URL + 'ressources/picture/logo.png'} alt="Logo du Gite, qui ramène à la page d'accueil"/>
-            <h1>
-                <span>Sofandi Murleldyr</span>
-                Les Marmottes Endormies
-            </h1>
-            </div>
+            <a href="/">
+                <div class="siteName">
+                    <img src={process.env.PUBLIC_URL + 'ressources/picture/logo.png'} alt="Logo du Gite, qui ramène à la page d'accueil"/>
+                <h1>
+                    <span>Sofandi Murleldyr</span>
+                    Les Marmottes Endormies
+                </h1>
+                </div>
+            <hr />
+            </a>
+
             
-        </Link>
         
         </header>
 
     
        
         
-            <nav className="mainMenu">
+            {/* <nav className="mainMenu">
                 
                 <Link to="/hébergements-classiques">Hébergement Classiques</Link>
                 <Link to="/hébergements-insolites">Hébergements Insolites</Link>
                 <Link to="/services">Services</Link>
                 <Link to="/contact">Contact</Link>
             
-            </nav>
+            </nav> */}
         
         
     </div>
